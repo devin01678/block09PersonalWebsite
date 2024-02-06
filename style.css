@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.navContainer {
+  background-color: lightskyblue;
+  color: blue;
+  /* margin: 5px 20px; */
+  border: 3px solid;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* flex-direction: column; */
+  /* width: auto;
+    height: 100px; */
+  /* text-align: right */
+}
+
+.navBar {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+}
+
+.navText {
+  text-decoration: none;
+  font-size: x-large;
+}
+
+.fullName {
+  text-align: center;
+  font-size: x-large;
+  font-weight: 500;
+}
+
+.quotation {
+  font-style: italic;
+}
+
+.generalStyling {
+  background-color: ghostwhite;
+}
+
+/* .nav { */
+/* background-color: lightskyblue;
+    color:blue;
+    text-align: right;
+    margin: 5px 1120px;
+    border: 3px solid;
+    padding: 2px 3px;
+    width: 1000px; */
