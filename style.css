@@ -66,11 +66,13 @@
 .homeContent {
   font-size: x-large;
   text-align: center;
+  padding: 25px;
 }
 
 .homeQuote {
   font-style: italic;
   font-size: x-large;
+  padding: 0.5rem;
 }
 
 .homePic {
@@ -80,4 +82,177 @@
 
 .homeImageContainer {
   margin-top: 3rem;
+}
+
+.aboutBody {
+  display: flex;
+  color: blue;
+  flex-direction: row;
+  justify-content: left;
+  padding: 1rem;
+  margin-top: 10rem;
+}
+
+.aboutSectionOne {
+  background-color: lightskyblue;
+  border: solid 3px;
+}
+
+.aboutHeaderOne {
+  margin: 10px;
+}
+
+.aboutContentOne {
+  margin: 10px;
+}
+
+.aboutPhotoOne {
+  width: 550px;
+  height: 100x;
+  padding: 50px;
+  margin-top: ;
+}
+
+.aboutBodyTwo {
+  display: flex;
+  color: blue;
+  flex-direction: row;
+  justify-content: left;
+  padding: 1rem;
+  margin-top: 10rem;
+}
+
+.aboutSectionTwo {
+  background-color: lightskyblue;
+  border: solid 3px;
+}
+
+.aboutHeaderTwo {
+  margin: 10px;
+}
+
+.aboutContentTwo {
+  margin: 10px;
+}
+
+.aboutPhotoTwo {
+  width: 550px;
+  height: 100x;
+  padding: 50px;
+  margin-top: 100px;
+}
+
+.aboutBodyThree {
+  display: flex;
+  color: blue;
+  flex-direction: row;
+  justify-content: left;
+  padding: 1rem;
+  margin-top: 10rem;
+}
+
+.aboutSectionThree {
+  background-color: lightskyblue;
+  border: solid 3px;
+}
+
+.aboutHeaderThree {
+  margin: 10px;
+}
+
+.aboutContentThree {
+  margin: 10px;
+}
+
+.aboutPhotoThree {
+  width: 550px;
+  height: 100x;
+  padding: 50px;
+  margin-top: 100px;
+  border: ;
+}
+
+.portfolioSectionOne {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  background-color: lightskyblue;
+  color: blue;
+  margin-top: 50px;
+  border: solid 3px;
+}
+
+.portfolioHeaderOne {
+  margin: 10px;
+  justify-content: center;
+  text-align: center;
+}
+
+.portfolioContentOne {
+  margin: 10px;
+  display: flex;
+}
+
+.portfolioPhotoOne {
+  width: 350px;
+  height: 300px;
+  padding: 10px;
+}
+
+.portfolioSectionTwo {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  background-color: lightskyblue;
+  color: blue;
+  margin-top: 50px;
+  border: solid 3px;
+}
+
+.portfolioHeaderTwo {
+  margin: 10px;
+  text-align: center;
+}
+
+.portfolioContentTwo {
+  margin: 10px;
+  display: flex;
+}
+
+.portfolioPhotoTwo {
+  width: 350px;
+  height: 300px;
+  padding: 10px;
+}
+
+.portfolioContentThree {
+  margin: 10px;
+}
+
+.portfolioSectionThree {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  background-color: lightskyblue;
+  color: blue;
+  margin-top: 50px;
+  border: solid 3px;
+  margin-bottom: 50px;
+}
+
+.portfolioHeaderThree {
+  margin: 10px;
+  justify-content: center;
+  text-align: center;
+}
+
+.portfolioContentThree {
+  margin: 10px;
+  display: flex;
+}
+
+.portfolioPhotoThree {
+  width: 350px;
+  height: 300px;
+  padding: 10px;
 }
