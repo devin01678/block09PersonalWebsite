@@ -86,6 +86,7 @@
 
 .aboutBody {
   display: flex;
+  color: blue;
   flex-direction: row;
   justify-content: left;
   padding: 1rem;
@@ -94,6 +95,7 @@
 
 .aboutSectionOne {
   background-color: lightskyblue;
+  border: solid 3px;
 }
 
 .aboutHeaderOne {
@@ -113,6 +115,7 @@
 
 .aboutBodyTwo {
   display: flex;
+  color: blue;
   flex-direction: row;
   justify-content: left;
   padding: 1rem;
@@ -121,6 +124,7 @@
 
 .aboutSectionTwo {
   background-color: lightskyblue;
+  border: solid 3px;
 }
 
 .aboutHeaderTwo {
@@ -140,6 +144,7 @@
 
 .aboutBodyThree {
   display: flex;
+  color: blue;
   flex-direction: row;
   justify-content: left;
   padding: 1rem;
@@ -148,6 +153,7 @@
 
 .aboutSectionThree {
   background-color: lightskyblue;
+  border: solid 3px;
 }
 
 .aboutHeaderThree {
@@ -163,43 +169,60 @@
   height: 100x;
   padding: 50px;
   margin-top: 100px;
+  border: ;
 }
 
 .portfolioSectionOne {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   padding: 2rem;
   background-color: lightskyblue;
   color: blue;
   margin-top: 50px;
+  border: solid 3px;
 }
 
 .portfolioHeaderOne {
   margin: 10px;
+  justify-content: center;
+  text-align: center;
 }
 
 .portfolioContentOne {
   margin: 10px;
+  display: flex;
 }
 
-/* .portfolioSectionOne {
-  width: 50px;
-  height: 50px;
-
-
-} */
+.portfolioPhotoOne {
+  width: 350px;
+  height: 300px;
+  padding: 10px;
+}
 
 .portfolioSectionTwo {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   padding: 2rem;
   background-color: lightskyblue;
   color: blue;
   margin-top: 50px;
+  border: solid 3px;
 }
 
 .portfolioHeaderTwo {
   margin: 10px;
+  text-align: center;
+}
+
+.portfolioContentTwo {
+  margin: 10px;
+  display: flex;
+}
+
+.portfolioPhotoTwo {
+  width: 350px;
+  height: 300px;
+  padding: 10px;
 }
 
 .portfolioContentThree {
@@ -208,17 +231,28 @@
 
 .portfolioSectionThree {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   padding: 2rem;
   background-color: lightskyblue;
   color: blue;
   margin-top: 50px;
+  border: solid 3px;
+  margin-bottom: 50px;
 }
 
 .portfolioHeaderThree {
   margin: 10px;
+  justify-content: center;
+  text-align: center;
 }
 
 .portfolioContentThree {
   margin: 10px;
+  display: flex;
+}
+
+.portfolioPhotoThree {
+  width: 350px;
+  height: 300px;
+  padding: 10px;
 }
