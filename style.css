@@ -33,17 +33,51 @@
 
 .quotation {
   font-style: italic;
+  font-size: x-large;
 }
 
 .generalStyling {
   background-color: ghostwhite;
 }
 
-/* .nav { */
-/* background-color: lightskyblue;
-    color:blue;
-    text-align: right;
-    margin: 5px 1120px;
-    border: 3px solid;
-    padding: 2px 3px;
-    width: 1000px; */
+.homeBodyContainer {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.homeBody {
+  color: blue;
+  border: 3px solid;
+  border-color: blue;
+  margin: 3rem 3rem;
+  background-color: lightskyblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.homeHeader {
+  padding: 0.5rem;
+  font-size: xx-large;
+}
+
+.homeContent {
+  font-size: x-large;
+  text-align: center;
+}
+
+.homeQuote {
+  font-style: italic;
+  font-size: x-large;
+}
+
+.homePic {
+  width: 100%;
+  max-height: 400px;
+}
+
+.homeImageContainer {
+  margin-top: 3rem;
+}
