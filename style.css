@@ -180,6 +180,8 @@
   color: blue;
   margin-top: 50px;
   border: solid 3px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .portfolioHeaderOne {
@@ -207,6 +209,8 @@
   color: blue;
   margin-top: 50px;
   border: solid 3px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .portfolioHeaderTwo {
@@ -238,6 +242,8 @@
   margin-top: 50px;
   border: solid 3px;
   margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .portfolioHeaderThree {
