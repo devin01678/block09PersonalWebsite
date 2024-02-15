@@ -25,15 +25,30 @@
   font-size: x-large;
 }
 
+.navText:hover {
+  font-size: 25px;
+  color: black;
+}
+
 .fullName {
   text-align: center;
   font-size: x-large;
   font-weight: 500;
 }
 
+.fullName:hover {
+  font-size: 25px;
+  color: black;
+}
+
 .quotation {
   font-style: italic;
   font-size: x-large;
+}
+
+.quotation:hover {
+  font-size: 25px;
+  color: black;
 }
 
 .quotation:nth-child(3n) {
@@ -186,6 +201,10 @@
   margin-right: 50px;
 }
 
+.portfolioSectionOne:nth-child(3n + 3) {
+  color: black;
+}
+
 .portfolioHeaderOne {
   margin: 10px;
   justify-content: center;
@@ -265,10 +284,6 @@
   padding: 10px;
 }
 
-/* p:nth-child(3n) {
-  color: black;
-} */
-
 .contentFormContainer {
   display: flex;
   flex-direction: column;
@@ -292,3 +307,46 @@
   justify-content: space-between;
   text-align: center;
 }
+
+.successListContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.successList {
+  text-align: center;
+  justify-content: center;
+}
+
+li:nth-child(even) {
+  color: black;
+}
+
+span:nth-child(even) {
+  color: black;
+}
+
+.spanContainer li:nth-child(even) {
+  color: black;
+}
+
+li:hover {
+  font-size: larger;
+}
+
+/* Scratch Work: */
+
+/* .homeBody:nth-child(2n) {
+  color: black;
+} */
+
+/* .homeHeader:nth-child(even) {
+  color: black;
+} */
+
+/* .spanContainer:nth-child(even) {
+} */
+
+/* p:nth-child(3n) {
+  color: black;
+} */
